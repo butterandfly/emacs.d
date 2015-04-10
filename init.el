@@ -10,13 +10,13 @@
 (add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
 (el-get 'sync)
 
-;;; 缩进
-;;; (setq indent-tabs-mode nil)
-;;; (setq tab-width 2)
 
 ;;; 显示行数
 (global-linum-mode t)
-(setq linum-format "%4d \u2502 ")
+(setq linum-format "%4d ")
+
+;;; 取消备份
+(setq make-backup-files nil)
 
 ;;; evil-mode
 (require 'evil)

@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads nil "auto-complete/auto-complete" "auto-complete/auto-complete.el"
-;;;;;;  (21796 59663 813012 542000))
+;;;;;;  (21799 28018 0 0))
 ;;; Generated autoloads from auto-complete/auto-complete.el
 
 (autoload 'auto-complete "auto-complete/auto-complete" "\
@@ -41,7 +41,7 @@ See `auto-complete-mode' for more information on Auto-Complete mode.
 ;;;***
 
 ;;;### (autoloads nil "auto-complete/auto-complete-config" "auto-complete/auto-complete-config.el"
-;;;;;;  (21796 59663 809679 208000))
+;;;;;;  (21799 28018 0 0))
 ;;; Generated autoloads from auto-complete/auto-complete-config.el
 
 (autoload 'ac-config-default "auto-complete/auto-complete-config" "\
@@ -51,8 +51,8 @@ See `auto-complete-mode' for more information on Auto-Complete mode.
 
 ;;;***
 
-;;;### (autoloads nil "el-get/el-get" "el-get/el-get.el" (21796 37825
-;;;;;;  936345 875000))
+;;;### (autoloads nil "el-get/el-get" "el-get/el-get.el" (21799 27784
+;;;;;;  0 0))
 ;;; Generated autoloads from el-get/el-get.el
 
 (autoload 'el-get-version "el-get/el-get" "\
@@ -152,7 +152,7 @@ already installed packages is considered.
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-bundle" "el-get/el-get-bundle.el"
-;;;;;;  (21796 37825 933012 542000))
+;;;;;;  (21799 27784 0 0))
 ;;; Generated autoloads from el-get/el-get-bundle.el
 
 (autoload 'el-get-bundle-el-get "el-get/el-get-bundle" "\
@@ -202,7 +202,7 @@ required.
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-list-packages" "el-get/el-get-list-packages.el"
-;;;;;;  (21796 37825 936345 875000))
+;;;;;;  (21799 27784 0 0))
 ;;; Generated autoloads from el-get/el-get-list-packages.el
 
 (autoload 'el-get-list-packages "el-get/el-get-list-packages" "\
@@ -212,8 +212,7 @@ Display a list of packages.
 
 ;;;***
 
-;;;### (autoloads nil "evil/evil" "evil/evil.el" (21796 38178 613012
-;;;;;;  542000))
+;;;### (autoloads nil "evil/evil" "evil/evil.el" (21799 28498 0 0))
 ;;; Generated autoloads from evil/evil.el
 
 (defvar evil-mode nil "\
@@ -239,8 +238,8 @@ See `evil-local-mode' for more information on Evil-Local mode.
 
 ;;;***
 
-;;;### (autoloads nil "go-mode/go-mode" "go-mode/go-mode.el" (21796
-;;;;;;  52697 153012 541000))
+;;;### (autoloads nil "go-mode/go-mode" "go-mode/go-mode.el" (21799
+;;;;;;  28072 0 0))
 ;;; Generated autoloads from go-mode/go-mode.el
 
 (autoload 'go-mode "go-mode/go-mode" "\
@@ -325,7 +324,7 @@ Tries to look for a URL at point.
 ;;;***
 
 ;;;### (autoloads nil "goto-chg/goto-chg" "goto-chg/goto-chg.el"
-;;;;;;  (21796 38137 956345 874000))
+;;;;;;  (21799 27660 0 0))
 ;;; Generated autoloads from goto-chg/goto-chg.el
 
 (autoload 'goto-last-change "goto-chg/goto-chg" "\
@@ -363,53 +362,6 @@ See `goto-last-change' for use of prefix argument.
 
 ;;;***
 
-;;;### (autoloads nil "undo-tree/undo-tree" "undo-tree/undo-tree.el"
-;;;;;;  (21796 38134 683012 542000))
-;;; Generated autoloads from undo-tree/undo-tree.el
-
-(autoload 'undo-tree-mode "undo-tree/undo-tree" "\
-Toggle undo-tree mode.
-With no argument, this command toggles the mode.
-A positive prefix argument turns the mode on.
-A negative prefix argument turns it off.
-
-Undo-tree-mode replaces Emacs' standard undo feature with a more
-powerful yet easier to use version, that treats the undo history
-as what it is: a tree.
-
-The following keys are available in `undo-tree-mode':
-
-  \\{undo-tree-map}
-
-Within the undo-tree visualizer, the following keys are available:
-
-  \\{undo-tree-visualizer-mode-map}
-
-\(fn &optional ARG)" t nil)
-
-(defvar global-undo-tree-mode nil "\
-Non-nil if Global-Undo-Tree mode is enabled.
-See the command `global-undo-tree-mode' for a description of this minor mode.
-Setting this variable directly does not take effect;
-either customize it (see the info node `Easy Customization')
-or call the function `global-undo-tree-mode'.")
-
-(custom-autoload 'global-undo-tree-mode "undo-tree/undo-tree" nil)
-
-(autoload 'global-undo-tree-mode "undo-tree/undo-tree" "\
-Toggle Undo-Tree mode in all buffers.
-With prefix ARG, enable Global-Undo-Tree mode if ARG is positive;
-otherwise, disable it.  If called from Lisp, enable the mode if
-ARG is omitted or nil.
-
-Undo-Tree mode is enabled in all buffers where
-`turn-on-undo-tree-mode' would do it.
-See `undo-tree-mode' for more information on Undo-Tree mode.
-
-\(fn &optional ARG)" t nil)
-
-;;;***
-
 ;;;### (autoloads nil nil ("auto-complete/auto-complete-pkg.el" "el-get/el-get-autoloading.el"
 ;;;;;;  "el-get/el-get-build.el" "el-get/el-get-byte-compile.el"
 ;;;;;;  "el-get/el-get-core.el" "el-get/el-get-custom.el" "el-get/el-get-dependencies.el"
@@ -420,8 +372,8 @@ See `undo-tree-mode' for more information on Undo-Tree mode.
 ;;;;;;  "evil/evil-macros.el" "evil/evil-maps.el" "evil/evil-pkg.el"
 ;;;;;;  "evil/evil-repeat.el" "evil/evil-search.el" "evil/evil-states.el"
 ;;;;;;  "evil/evil-tests.el" "evil/evil-types.el" "evil/evil-vars.el"
-;;;;;;  "fuzzy/fuzzy.el" "go-mode/go-mode-autoloads.el" "popup/popup.el")
-;;;;;;  (21796 59664 254587 874000))
+;;;;;;  "go-mode/go-mode-autoloads.el" "popup/popup.el") (21799 28863
+;;;;;;  28119 0))
 
 ;;;***
 
